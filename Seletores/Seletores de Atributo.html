@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trilha de CSS</title>
+    <style>
+        /*
+        * Seletores: Definem em quais elementos nós vamos aplicar o css
+        * 1. Seletor de tag/tipo
+        * 2. // de id.
+        * 3. // de Classes
+        * 4. // Universal
+        * 5. // de artibuto
+        */
+
+        /*[atributo]*/
+
+        /*[atributo="valor"]*/
+
+        /*[atributo~="valor"]*/
+
+        /*[atributo|="valor"]*/
+
+        /*[atributo^="valor"]*/
+
+        /*[atributo$="valor"]*/
+
+        [href*="login"] {
+            background:  lightgreen;
+        }
+        
+    </style>
+</head>
+<body>
+    <div>
+        <li>
+            <a title="Streaming netflix" href="http://www.login.netflix.com">
+                netflix
+            </a>
+        </li>
+        <li>
+            <a title="Streaming Prime" href="http://www.primevideo.com/login">
+                Prime Video
+            </a>
+        </li>
+        <li>
+            <a title="Spotify" href="https://www.spotify.com/">
+                spotify
+            </a>
+        </li>
+        <li>
+            <a title="Streaming Disney" href="">
+                Disney Plus
+            </a>
+        </li>
+    </div>
+</body>
+</html>
